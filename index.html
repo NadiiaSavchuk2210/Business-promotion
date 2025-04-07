@@ -18,13 +18,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/product.css" />
   </head>
 
   <body>
     <!-- header -->
     <header class="header">
       <nav class="header-nav">
-        <a class="header-logo" href="">
+        <a class="header-logo logo" href="./index.html">
           <img src="./images/logo.svg" alt="logo" />
           Product
         </a>
@@ -37,10 +38,10 @@
       </nav>
       <ul class="header-list-btn">
         <li class="header-item-btn">
-          <button class="btn-secondary" type="button">Sign In</button>
+          <button class="btn btn-secondary" type="button">Sign In</button>
         </li>
         <li class="header-item-btn">
-          <button class="btn-primary" type="button">Sign Up</button>
+          <button class="btn btn-primary" type="button">Sign Up</button>
         </li>
       </ul>
     </header>
@@ -54,10 +55,10 @@
         </p>
         <ul class="hero-list-btn">
           <li class="hero-item-btn">
-            <button class="btn-primary" type="button">Get started</button>
+            <button class="btn btn-primary" type="button">Get started</button>
           </li>
           <li class="hero-item-btn">
-            <button class="btn-link" type="button">Watch the Video</button>
+            <button class="btn btn-link" type="button">Watch the Video</button>
           </li>
         </ul>
         <img src="./images/hero-img.png" alt="people" width="610" />
@@ -91,7 +92,7 @@
             </p>
           </li>
         </ul>
-        <button class="btn-primary" type="button">SIGN UP NOW</button>
+        <button class="btn btn-primary" type="button">SIGN UP NOW</button>
       </section>
       <!-- Management -->
       <section class="section-management">
@@ -205,7 +206,9 @@
             <p class="list-item-text">I can help marketing strategy</p>
           </li>
         </ul>
-        <button class="btn-primary" type="button">Contact our expert</button>
+        <button class="btn btn-primary" type="button">
+          Contact our expert
+        </button>
       </section>
       <!-- Contents Strategies -->
       <section class="section-contents">
@@ -275,7 +278,7 @@
                 <p>Landing Pages</p>
               </li>
             </ul>
-            <button class="btn-primary" type="button">Order Now</button>
+            <button class="btn btn-primary" type="button">Order Now</button>
           </li>
           <li class="price-card card-current">
             <h3 class="card-title">Standard</h3>
@@ -294,7 +297,9 @@
                 <p>Landing Pages</p>
               </li>
             </ul>
-            <button class="btn-primary" type="button">Order Now</button>
+            <button class="btn btn-primary-light" type="button">
+              Order Now
+            </button>
           </li>
           <li class="price-card">
             <h3 class="card-title">Premium</h3>
@@ -313,67 +318,95 @@
                 <p>Landing Pages</p>
               </li>
             </ul>
-            <button class="btn-primary" type="button">Order Now</button>
+            <button class="btn btn-primary" type="button">Order Now</button>
           </li>
         </ul>
       </section>
       <!-- Feedback -->
-      <section>
-        <h2>What Clients Say</h2>
-        <p>
+      <section class="section-feedback">
+        <h2 class="section-title">What Clients Say</h2>
+        <p class="section-subtitle">
           Problems trying to resolve the conflict between the two major realms
           of Classical physics: Newtonian mechanics
         </p>
-        <ul>
-          <li>
-            <p>
+        <ul class="feedback-cards">
+          <li class="feedback-card">
+            <p class="card-text">
               Product helps you see how many more days you need to work to reach
               your financial goal.
             </p>
             <img src="./images/client-1.png" alt="Woman" width="50" />
-            <h3>Wahid Ari</h3>
-            <p>Designer</p>
+            <h3 class="card-title">Wahid Ari</h3>
+            <p class="card-subtitle">Designer</p>
           </li>
-          <li>
-            <p></p>
+          <li class="feedback-card">
+            <p class="card-text">
+              Product helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
             <img src="./images/client-2.png" alt="Man" width="50" />
-            <h3>Wahid Ari</h3>
-            <p>Designer</p>
+            <h3 class="card-title">Wahid Ari</h3>
+            <p class="card-subtitle">Designer</p>
           </li>
-          <li>
-            <p></p>
+          <li class="feedback-card">
+            <p class="card-text">
+              Product helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
             <img src="./images/client-3.png" alt="Man" width="50" />
-            <h3>Wahid Ari</h3>
-            <p>Designer</p>
+            <h3 class="card-title">Wahid Ari</h3>
+            <p class="card-subtitle">Designer</p>
           </li>
         </ul>
       </section>
       <!-- Promo -->
-      <section>
-        <h2 hidden>Promo</h2>
-        <p>Join 100 Compannies who boost their business with Product</p>
-        <button>Get This</button>
+      <section class="section-promo">
+        <h2 class="section-title" hidden>Promo</h2>
+        <p class="section-text">
+          Join 100 Compannies who boost their business with Product
+        </p>
+        <button class="btn btn-primary-light" type="button">Get This</button>
         <img src="./images/graphics.png" alt="graphics" width="351" />
       </section>
     </main>
     <!-- footer -->
-    <footer>
-      <a href=""><img src="./images/logo.svg" alt="logo" />Product</a>
-      <b>Resource</b>
-      <ul>
-        <li><a href="">About Us</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">FAQ</a></li>
+    <footer class="footer">
+      <a class="footer-logo logo" href="./index.html">
+        <img src="./images/logo.svg" alt="logo" />Product</a
+      >
+      <b class="footer-nav-heading footer-heading">Resource</b>
+      <ul class="footer-nav-list">
+        <li class="footer-nav-item">
+          <a class="footer-nav-link" href="">About Us</a>
+        </li>
+        <li class="footer-nav-item">
+          <a class="footer-nav-link" href="">Blog</a>
+        </li>
+        <li class="footer-nav-item">
+          <a class="footer-nav-link" href="">Contact</a>
+        </li>
+        <li class="footer-nav-item">
+          <a class="footer-nav-link" href="">FAQ</a>
+        </li>
       </ul>
-      <b>Legal Stuff</b>
-      <ul>
-        <li><a href="">Disclaimer</a></li>
-        <li><a href="">Financing</a></li>
-        <li><a href="">Privacy Policy</a></li>
+      <b class="footer-nav-heading footer-heading">Legal Stuff</b>
+      <ul class="footer-nav-list">
+        <li class="footer-nav-item">
+          <a class="footer-nav-link" href="">Disclaimer</a>
+        </li>
+        <li class="footer-nav-item">
+          <a class="footer-nav-link" href="">Financing</a>
+        </li>
+        <li class="footer-nav-item">
+          <a class="footer-nav-link" href="">Privacy Policy</a>
+        </li>
       </ul>
-      <b>knowing you're always on the best energy deal.</b>
-      <p>Made With Love By Figmaland All Right Reserved</p>
+      <b class="footer-heading"
+        >knowing you're always on the best energy deal.</b
+      >
+      <p class="footer-legal-copyright">
+        Made With Love By Figmaland All Right Reserved
+      </p>
     </footer>
   </body>
 </html>

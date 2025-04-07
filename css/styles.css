@@ -1,3 +1,4 @@
+/* base */
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -9,6 +10,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #22343d;
 }
 
 ul,
@@ -19,26 +21,13 @@ ol {
 button {
     font-weight: 700;
     cursor: pointer;
-}
-
-.header-logo {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 0.93;
-    color: #173a56;
-}
-
-.nav-link {
-    line-height: 1.75;
-    color: currentColor;
-}
-
-.nav-link.current {
-    font-weight: 600;
+    outline: none;
+    border: none;
 }
 
 .btn-secondary {
     color: #173a56;
+    background-color: #fff;
 }
 
 .btn-primary {
@@ -46,34 +35,26 @@ button {
     background-color: #02897a;
 }
 
+.btn-primary-light {
+    color: #02897a;
+    background-color: #fff;
+}
+
 .btn-link {
     font-weight: 600;
     text-decoration: underline;
     color: #02897a;
-    outline: none;
     background-color: unset;
-    border: none;
-}
-
-.header-item-btn button {
-    font-weight: 600;
-}
-
-.page-title {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 1.5;
-    color: #22343d;
-}
-
-.hero-text {
-    font-size: 18px;
-    line-height: 1.55;
 }
 
 .section-title {
     font-weight: 700;
     font-size: 32px;
+    text-align: center;
+}
+
+.section-subtitle {
+    font-weight: 500;
     text-align: center;
 }
 
@@ -87,11 +68,6 @@ button {
     font-size: 16px;
 }
 
-.product-item-title {
-    font-weight: 600;
-    font-size: 22px;
-}
-
 .list-item-title {
     font-weight: 600;
     font-size: 16px;
@@ -103,97 +79,71 @@ button {
     color: #2f281e;
 }
 
-.process-list-item .list-item-text {
-    background-color: #fff;
-}
-
-.section-subtitle {
-    font-weight: 500;
-    text-align: center;
-}
-
-.contents-card-link {
-    color: #22343d;
-}
-
-.price-card {
-    font-family: "Montserrat", sans-serif;
-}
-
 .card-title {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 24px;
 }
 
-.card-desc {
-    line-height: 2.5;
-}
-
-.contents-card.card-current .card-title {
-    color: #02897a;
-}
-
-.contents-card-subtitle {
-    line-height: 1.75;
-}
-
 .card-subtitle-accent {
     font-weight: 700;
 }
 
-.card-sum {
+.card-desc {
+    line-height: 2.5;
+}
+
+.logo {
     font-weight: 700;
-    font-size: 76px;
-    line-height: 1.32;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #02897a;
+    font-size: 30px;
+    line-height: 0.93;
+    color: #173a56;
 }
 
-.card-currency {
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.25;
-    letter-spacing: 0em;
-    color: #02897a;
+
+/* header */
+.nav-link {
+    line-height: 1.75;
+    color: currentColor;
 }
 
-.card-period {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.1875;
-    letter-spacing: 0.01em;
-    color: #afafaf;
-}
-
-.card-benefits-item {
-    font-weight: 500;
-    line-height: 1.375;
-    letter-spacing: 0.01em;
-}
-
-.price-card .btn-primary {
+.nav-link.current {
     font-weight: 600;
-    font-size: 18px;
 }
 
-.price-card.card-current {
+.header-item-btn button {
+    font-weight: 600;
+}
+
+/* footer */
+.footer-heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.footer-nav-link {
+    line-height: 2.19;
+}
+
+.footer-legal-copyright {
+    line-height: 1.88;
+}
+
+
+/* section Promo */
+.section-promo {
     background-color: #02897a;
+}
+
+.section-promo .section-text {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.51;
     color: #fff;
 }
 
-.price-card.card-current .card-sum,
-.price-card.card-current .card-currency {
-    color: #fff;
-}
-
-.price-card.card-current .card-period {
-    color: #e0e0e0;
-}
-
-.price-card.card-current .btn-primary {
-    color: #02897a;
-    background-color: #fff;
+.section-promo .btn {
+    font-weight: 600;
+    font-size: 20px;
 }

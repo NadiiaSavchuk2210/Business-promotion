@@ -1,0 +1,124 @@
+/* section Hero  */
+.page-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #22343d;
+}
+
+.hero-text {
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+/* section Product */
+.product-item-title {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.process-list-item .list-item-text {
+    background-color: #fff;
+}
+
+.contents-card-link {
+    color: #22343d;
+}
+
+.price-card {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* section Contents Strategies */
+.contents-card.card-current .card-title {
+    color: #02897a;
+}
+
+.contents-card-subtitle {
+    line-height: 1.75;
+}
+
+/* section Price Table  */
+.card-sum {
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.32;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #02897a;
+}
+
+.card-currency {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #02897a;
+}
+
+.card-period {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+
+.card-benefits-item {
+    font-weight: 500;
+    line-height: 1.375;
+    letter-spacing: 0.01em;
+}
+
+.price-card .btn {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.price-card.card-current {
+    background-color: #02897a;
+    color: #fff;
+}
+
+.price-card.card-current .card-sum,
+.price-card.card-current .card-currency {
+    color: #fff;
+}
+
+.price-card.card-current .card-period {
+    color: #e0e0e0;
+}
+
+/* feedback */
+.section-feedback .section-title {
+    line-height: 1.78;
+}
+
+.section-feedback .section-subtitle {
+    line-height: 1.75;
+    text-align: center;
+}
+
+.section-feedback {
+    letter-spacing: 0.01em;
+}
+
+.section-feedback .card-text {
+    line-height: 1.75;
+    color: #737373;
+}
+
+.section-feedback .card-title {
+    line-height: 1.5;
+    color: #02897a;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.section-feedback .card-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #252b42;
+}
