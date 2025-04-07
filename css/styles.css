@@ -47,18 +47,27 @@ button {
     background-color: unset;
 }
 
+.btn-font-s {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.page-title,
+.page-subtitle {
+    font-weight: 700;
+    font-size: 40px;
+    color: #22343d;
+}
+
 .section-title {
     font-weight: 700;
     font-size: 32px;
     text-align: center;
 }
 
-.section-subtitle {
-    font-weight: 500;
-    text-align: center;
-}
-
-.section-title-bg {
+.section-title-bg,
+.section-subtitle-bg {
     font-weight: 700;
     font-size: 34px;
 }
@@ -68,15 +77,19 @@ button {
     font-size: 16px;
 }
 
+.section-subtitle {
+    font-weight: 500;
+    text-align: center;
+}
+
 .list-item-title {
     font-weight: 600;
     font-size: 16px;
 }
 
-.list-item-text {
-    font-weight: 500;
-    text-align: center;
-    color: #2f281e;
+.list-item-title-bg {
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .card-title {
@@ -107,13 +120,11 @@ button {
     color: currentColor;
 }
 
-.nav-link.current {
-    font-weight: 600;
-}
-
+.nav-link.current,
 .header-item-btn button {
     font-weight: 600;
 }
+
 
 /* footer */
 .footer-heading {
@@ -128,6 +139,54 @@ button {
 
 .footer-legal-copyright {
     line-height: 1.88;
+}
+
+
+/* section Price Table  */
+.card-sum {
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.32;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #02897a;
+}
+
+.card-currency {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #02897a;
+}
+
+.card-period {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+
+.card-benefits-item {
+    font-weight: 500;
+    line-height: 1.375;
+    letter-spacing: 0.01em;
+}
+
+.price-card.card-current {
+    background-color: #02897a;
+    color: #fff;
+}
+
+.price-card.card-current .card-sum,
+.price-card.card-current .card-currency {
+    color: #fff;
+}
+
+.price-card.card-current .card-period {
+    color: #e0e0e0;
 }
 
 

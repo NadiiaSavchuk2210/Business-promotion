@@ -1,0 +1,48 @@
+/* base */
+.page-title,
+.section-title {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.section-desc {
+    font-size: 18px;
+}
+
+.page-title,
+.page-subtitle,
+.section-title-bg,
+.section-subtitle-bg,
+.section-desc {
+    text-align: center;
+}
+
+
+/* section Pricing */
+.section-price .section-desc {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.section-price .card-benefits-item {
+    font-family: "Inter", sans-serif;
+}
+
+
+/* section Industry solutions */
+.section-industry-solutions .list-item-text {
+    line-height: 1.75;
+}
+
+
+/* section Frequently asked question */
+.section-faq .faq-item-title {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+/* section Promo */
+.section-promo .btn {
+    color: #22343d;
+}
