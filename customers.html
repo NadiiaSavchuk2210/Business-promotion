@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Customers</title>
+    <title>Business promotion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -11,43 +17,48 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/customers.css" />
   </head>
 
   <body>
     <header class="header">
-      <nav class="header-nav">
-        <a class="header-logo logo" href="./index.html">
-          <img src="./images/logo.svg" alt="logo" />
-          Product
-        </a>
-        <ul class="nav-list">
-          <li><a class="nav-link current" href="">Product</a></li>
-          <li><a class="nav-link" href="./customers.html">Customers</a></li>
-          <li><a class="nav-link" href="./pricing.html">Pricing</a></li>
-          <li><a class="nav-link" href="">Resources</a></li>
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="header-logo logo" href="./index.html">
+            <img src="./images/logo.svg" alt="logo" />
+            Product
+          </a>
+          <ul class="nav-list">
+            <li><a class="nav-link" href="./index.html">Product</a></li>
+            <li>
+              <a class="nav-link current" href="./customers.html">Customers</a>
+            </li>
+            <li><a class="nav-link" href="./pricing.html">Pricing</a></li>
+            <li><a class="nav-link" href="">Resources</a></li>
+          </ul>
+        </nav>
+        <ul class="header-list-btn">
+          <li class="header-item-btn">
+            <button
+              class="header-btn header-btn-in btn-secondary"
+              type="button"
+            >
+              Sign In
+            </button>
+          </li>
+          <li class="header-item-btn">
+            <button class="header-btn header-btn-up btn-primary" type="button">
+              Sign Up
+            </button>
+          </li>
         </ul>
-      </nav>
-      <ul class="header-list-btn">
-        <li class="header-item-btn">
-          <button class="btn btn-secondary" type="button">Sign In</button>
-        </li>
-        <li class="header-item-btn">
-          <button class="btn btn-primary" type="button">Sign Up</button>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
-      <!-- Our Clients -->
-      <section class="section-clients">
-        <h1 class="page-title">Our Clients</h1>
+      <!-- clients -->
+      <section class="section clients">
+        <h1 class="page-title clients-title">Our Clients</h1>
         <ul class="clients-list">
           <li class="clients-list-item">
             <a class="clients-item-link" href="https://www.airbnb.com/">
@@ -89,9 +100,9 @@
           </li>
         </ul>
       </section>
-      <!-- Why Choose Product? -->
-      <section class="section-why-choose">
-        <h2 class="section-title-bg">Why Choose Product?</h2>
+      <!-- why-choose -->
+      <section class="section why-choose">
+        <h2 class="section-title-bg why-choose-title">Why Choose Product?</h2>
         <ul class="why-choose-list">
           <li class="why-choose-list-item">
             <h3 class="why-choose-item-title">Special Business</h3>
@@ -116,9 +127,11 @@
           </li>
         </ul>
       </section>
-      <!-- How Product Work? -->
-      <section class="section-product-function">
-        <h2 class="section-title-bg">How Product Work?</h2>
+      <!-- product-function -->
+      <section class="section product-function">
+        <h2 class="section-title-bg product-function-title">
+          How Product Work?
+        </h2>
         <ol class="product-function-list">
           <li class="product-function-item">
             <img src="./images/mac1.png" alt="Macbook" width="500" />
@@ -154,11 +167,13 @@
             </p>
           </li>
         </ol>
-        <button class="btn btn-font-s btn-primary">Get in touch with us</button>
+        <button class="product-function-btn btn-font-s btn-primary">
+          Get in touch with us
+        </button>
       </section>
-      <!-- Offers await -->
-      <section class="section-offers-await">
-        <h2 class="section-title">
+      <!-- offers-await -->
+      <section class="section offers-await">
+        <h2 class="section-title offers-await-title">
           Join thousand of other who have already received offers
         </h2>
         <ul class="offers-await-list">
@@ -186,54 +201,70 @@
           </li>
         </ul>
       </section>
-      <!-- Promo -->
-      <section class="section-promo">
-        <h2 class="section-title" hidden>Promo</h2>
+      <!-- promo -->
+      <section class="section promo">
+        <h2 class="section-title promo-title" hidden>Promo</h2>
         <p class="section-text">
           Join 100 Compannies who boost their business with Product
         </p>
-        <button class="btn btn-primary-light" type="button">Get This</button>
+        <button class="promo-btn btn-primary-light" type="button">
+          Get This
+        </button>
         <img src="./images/graphics.png" alt="graphics" width="351" />
       </section>
     </main>
     <!-- footer -->
     <footer class="footer">
-      <a class="footer-logo logo" href="./index.html">
-        <img src="./images/logo.svg" alt="logo" />Product</a
-      >
-      <b class="footer-nav-heading footer-heading">Resource</b>
-      <ul class="footer-nav-list">
-        <li class="footer-nav-item">
-          <a class="footer-nav-link" href="">About Us</a>
-        </li>
-        <li class="footer-nav-item">
-          <a class="footer-nav-link" href="">Blog</a>
-        </li>
-        <li class="footer-nav-item">
-          <a class="footer-nav-link" href="">Contact</a>
-        </li>
-        <li class="footer-nav-item">
-          <a class="footer-nav-link" href="">FAQ</a>
-        </li>
-      </ul>
-      <b class="footer-nav-heading footer-heading">Legal Stuff</b>
-      <ul class="footer-nav-list">
-        <li class="footer-nav-item">
-          <a class="footer-nav-link" href="">Disclaimer</a>
-        </li>
-        <li class="footer-nav-item">
-          <a class="footer-nav-link" href="">Financing</a>
-        </li>
-        <li class="footer-nav-item">
-          <a class="footer-nav-link" href="">Privacy Policy</a>
-        </li>
-      </ul>
-      <b class="footer-heading"
-        >knowing you're always on the best energy deal.</b
-      >
-      <p class="footer-legal-copyright">
-        Made With Love By Figmaland All Right Reserved
-      </p>
+      <div class="container footer-container">
+        <div class="footer-content-wrapper">
+          <a class="footer-logo logo" href="./index.html">
+            <img src="./images/logo.svg" alt="logo" />Product</a
+          >
+          <div class="footer-content">
+            <div class="footer-columns">
+              <div class="footer-column">
+                <b class="footer-nav-heading footer-heading">Resource</b>
+                <ul class="footer-nav-list">
+                  <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="">About Us</a>
+                  </li>
+                  <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="">Blog</a>
+                  </li>
+                  <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="">Contact</a>
+                  </li>
+                  <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="">FAQ</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-column">
+                <b class="footer-nav-heading footer-heading">Legal Stuff</b>
+                <ul class="footer-nav-list">
+                  <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="">Disclaimer</a>
+                  </li>
+                  <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="">Financing</a>
+                  </li>
+                  <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-subscribe">
+              <b class="footer-heading"
+                >knowing you're always on the best energy deal.</b
+              >
+            </div>
+          </div>
+        </div>
+        <p class="footer-legal-copyright">
+          Made With Love By Figmaland All Right Reserved
+        </p>
+      </div>
     </footer>
   </body>
 </html>

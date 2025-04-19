@@ -1,208 +1,323 @@
 /* base */
 body {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.63;
-    color: #22343d;
-    background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #22343d;
+  background-color: #fff;
 }
 
 a {
-    text-decoration: none;
-    color: #22343d;
+  text-decoration: none;
+  color: inherit;
 }
 
 ul,
 ol {
-    list-style-type: none;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 button {
-    font-weight: 700;
-    cursor: pointer;
-    outline: none;
-    border: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
 }
 
 .btn-secondary {
-    color: #173a56;
-    background-color: #fff;
+  color: #173a56;
+  background-color: #fff;
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #02897a;
+  color: #fff;
+  background-color: #02897a;
 }
 
 .btn-primary-light {
-    color: #02897a;
-    background-color: #fff;
+  color: #02897a;
+  background-color: #fff;
 }
 
 .btn-link {
-    font-weight: 600;
-    text-decoration: underline;
-    color: #02897a;
-    background-color: unset;
+  text-decoration: underline;
+  color: #02897a;
+  background-color: transparent;
 }
 
 .btn-font-s {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .page-title,
 .page-subtitle {
-    font-weight: 700;
-    font-size: 40px;
-    color: #22343d;
+  font-size: 40px;
 }
 
 .section-title {
-    font-weight: 700;
-    font-size: 32px;
-    text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
 }
 
 .section-title-bg,
 .section-subtitle-bg {
-    font-weight: 700;
-    font-size: 34px;
+  font-weight: 700;
+  font-size: 34px;
 }
 
 .section-title-accent {
-    font-weight: 600;
-    font-size: 16px;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .section-subtitle {
-    font-weight: 500;
-    text-align: center;
+  font-weight: 500;
+  text-align: center;
 }
 
 .list-item-title {
-    font-weight: 600;
-    font-size: 16px;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .list-item-title-bg {
-    font-weight: 600;
-    font-size: 24px;
+  font-weight: 600;
+  font-size: 24px;
 }
 
 .card-title {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
 }
 
 .card-subtitle-accent {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .card-desc {
-    line-height: 2.5;
+  line-height: 2.5;
 }
 
 .logo {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 0.93;
-    color: #173a56;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
 }
-
 
 /* header */
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-logo {
+  margin-right: 237px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 30px;
+}
+
 .nav-link {
-    line-height: 1.75;
-    color: currentColor;
+  padding: 26px 0;
+  display: block;
+  line-height: 1.75;
 }
 
-.nav-link.current,
-.header-item-btn button {
-    font-weight: 600;
+.nav-link.current {
+  font-weight: 600;
 }
 
+.header-list-btn {
+  display: flex;
+  gap: 21px;
+  margin-left: auto;
+}
+
+.header-btn {
+  height: 42px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.header-btn-in {
+  min-width: 105px;
+  border: 1px solid #bcd0e5;
+}
+
+.header-btn-up {
+  min-width: 113px;
+}
 
 /* footer */
+
+.footer {
+  padding: 50px 0 40px;
+}
+
+.footer-content-wrapper {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-logo {
+  margin-right: 146px;
+  display: flex;
+}
+
 .footer-heading {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.5;
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 83px;
+}
+
+.footer-columns {
+  display: flex;
+  gap: 129px;
 }
 
 .footer-nav-link {
-    line-height: 2.19;
+  line-height: 2.19;
+}
+
+.footer-subscribe {
+  max-width: 325px;
 }
 
 .footer-legal-copyright {
-    line-height: 1.88;
+  margin: 0 auto;
+  max-width: 394.36px;
+  line-height: 1.88;
 }
 
-
-/* section Price Table  */
+/* price  */
 .card-sum {
-    font-weight: 700;
-    font-size: 76px;
-    line-height: 1.32;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #02897a;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.32;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #02897a;
 }
 
 .card-currency {
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.25;
-    letter-spacing: 0em;
-    color: #02897a;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
 }
 
 .card-period {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.1875;
-    letter-spacing: 0.01em;
-    color: #afafaf;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1875;
+  letter-spacing: 0.01em;
+  color: #afafaf;
 }
 
 .card-benefits-item {
-    font-weight: 500;
-    line-height: 1.375;
-    letter-spacing: 0.01em;
+  font-weight: 500;
+  line-height: 1.375;
+  letter-spacing: 0.01em;
 }
 
 .price-card.card-current {
-    background-color: #02897a;
-    color: #fff;
+  background-color: #02897a;
+  color: #fff;
 }
 
 .price-card.card-current .card-sum,
 .price-card.card-current .card-currency {
-    color: #fff;
+  color: #fff;
 }
 
 .price-card.card-current .card-period {
-    color: #e0e0e0;
+  color: #e0e0e0;
 }
 
-
-/* section Promo */
-.section-promo {
-    background-color: #02897a;
+/* promo */
+.promo {
+  padding: 50px 0;
 }
 
-.section-promo .section-text {
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 1.51;
-    color: #fff;
+.promo-inner-container {
+  padding: 4px 46px 10px 51px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  max-width: 968px;
+  background-color: #02897a;
+  border-radius: 32px;
+  margin: 0 auto;
 }
 
-.section-promo .btn {
-    font-weight: 600;
-    font-size: 20px;
+.promo-text-wrapper {
+  padding: 45px 0 46px;
+}
+
+.promo-text {
+  margin-bottom: 46px;
+  max-width: 510px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.51;
+  color: #fff;
+}
+
+.promo-btn {
+  border-radius: 8px;
+  min-width: 150px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.promo-img {
+  object-fit: cover;
 }
