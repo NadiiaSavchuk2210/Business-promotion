@@ -1,12 +1,12 @@
 /* base */
 .page-title,
 .section-title {
-    font-weight: 600;
-    font-size: 24px;
+  font-weight: 600;
+  font-size: 24px;
 }
 
 .section-desc {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .page-title,
@@ -14,35 +14,31 @@
 .section-title-bg,
 .section-subtitle-bg,
 .section-desc {
-    text-align: center;
+  text-align: center;
 }
-
 
 /* price */
 .price-desc {
-    font-weight: 500;
-    font-size: 16px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .price .card-benefits-item {
-    font-family: "Inter", sans-serif;
+  font-family: var(--tertiary-font);
 }
-
 
 /* industry-solutions */
 .industry-solutions .list-item-text {
-    line-height: 1.75;
+  line-height: 1.75;
 }
-
 
 /* faq */
 .faq .faq-item-title {
-    font-weight: 500;
-    font-size: 18px;
+  font-weight: 500;
+  font-size: 18px;
 }
-
 
 /* promo */
 .promo .btn {
-    color: #22343d;
+  color: var(--primary-color);
 }
