@@ -28,6 +28,8 @@
   --icon-bg-third-color: #740a76;
   --icon-bg-fourth-color: #f03e3d;
   --icon-bg-fifth-color: #f90;
+  --icon-bg-sixth-color: #ffefef;
+  --icon-bg-seventh-color: #f2f6ff;
   --soc-bg-color: #edfffc;
   --soc-bg-hover-color: #34c49a57;
   --star-fill-color: #f3cd03;
@@ -755,7 +757,7 @@ button {
 
 .promo-btn:hover,
 .promo-btn:focus {
-  background-color: var(--icon-bg-second-color);
+  background-color: var(--border-tertiary-color);
   color: var(--white-primary-color);
 }
 

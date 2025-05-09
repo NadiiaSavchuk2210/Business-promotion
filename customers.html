@@ -159,148 +159,340 @@
     <main>
       <!-- clients -->
       <section class="section clients">
-        <h1 class="page-title clients-title">Our Clients</h1>
-        <ul class="clients-list">
-          <li class="clients-list-item">
-            <a class="clients-item-link" href="https://www.airbnb.com/">
-              <img
-                src="./images/airbnb-logo.png"
-                alt="Airbnb logo"
-                width="159"
-              />
-            </a>
-          </li>
-          <li class="clients-list-item">
-            <a class="clients-item-link" href="https://www.google.com/">
-              <img
-                src="./images/google-logo.png"
-                alt="Google logo"
-                width="146"
-              />
-            </a>
-          </li>
-          <li class="clients-list-item">
-            <a
-              class="clients-item-link"
-              href="https://www.microsoft.com/uk-ua/"
-            >
-              <img
-                src="./images/microsoft-logo.png"
-                alt="Microsoft logo"
-                width="213"
-              />
-            </a>
-          </li>
-          <li class="clients-list-item">
-            <a
-              class="clients-item-link"
-              href="https://www.fedex.com/en-us/home.html"
-            >
-              <img src="./images/fedex-logo.png" alt="FedEx logo" width="140" />
-            </a>
-          </li>
-        </ul>
+        <div class="container clients-container">
+          <h1 class="page-title clients-title">Our Clients</h1>
+          <ul class="clients-list">
+            <li class="clients-list-item clients-first-item">
+              <a class="clients-item-link" href="https://www.airbnb.com/">
+                <picture class="clients-picture">
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/customer/airbnb-logo-lg.png    1x,
+                      ./images/customer/airbnb-logo-lg@2x.png 2x
+                    "
+                  />
+                  <source
+                    srcset="
+                      ./images/customer/airbnb-logo-sm.png    1x,
+                      ./images/customer/airbnb-logo-sm@2x.png 2x
+                    "
+                  />
+                  <img
+                    class="clients-img"
+                    src="./images/customer/airbnb-logo-sm.png"
+                    alt="Airbnb logo"
+                    width="159"
+                  />
+                </picture>
+              </a>
+            </li>
+            <li class="clients-list-item clients-second-item">
+              <a class="clients-item-link" href="https://www.google.com/">
+                <picture class="clients-picture">
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/customer/google-logo-lg.png    1x,
+                      ./images/customer/google-logo-lg@2x.png 2x
+                    "
+                  />
+                  <source
+                    srcset="
+                      ./images/customer/google-logo-sm.png    1x,
+                      ./images/customer/google-logo-sm@2x.png 2x
+                    "
+                  />
+                  <img
+                    class="clients-img"
+                    src="./images/customer/google-logo-sm.png"
+                    alt="Google logo"
+                    width="146"
+                  />
+                </picture>
+              </a>
+            </li>
+            <li class="clients-list-item clients-third-item">
+              <a
+                class="clients-item-link"
+                href="https://www.microsoft.com/uk-ua/"
+              >
+                <picture class="clients-picture">
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/customer/microsoft-logo-lg.png    1x,
+                      ./images/customer/microsoft-logo-lg@2x.png 2x
+                    "
+                  />
+                  <source
+                    srcset="
+                      ./images/customer/microsoft-logo-sm.png    1x,
+                      ./images/customer/microsoft-logo-sm@2x.png 2x
+                    "
+                  />
+                  <img
+                    class="clients-img"
+                    src="./images/customer/microsoft-logo-sm.png"
+                    alt="Microsoft logo"
+                    width="164"
+                  />
+                </picture>
+              </a>
+            </li>
+            <li class="clients-list-item clients-fourth-item">
+              <a
+                class="clients-item-link"
+                href="https://www.fedex.com/en-us/home.html"
+              >
+                <picture class="clients-picture">
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/customer/fedex-logo-lg.png    1x,
+                      ./images/customer/fedex-logo-lg@2x.png 2x
+                    "
+                  />
+                  <source
+                    srcset="
+                      ./images/customer/fedex-logo-sm.png    1x,
+                      ./images/customer/fedex-logo-sm@2x.png 2x
+                    "
+                  />
+                  <img
+                    class="clients-img"
+                    src="./images/customer/fedex-logo-sm.png"
+                    alt="FedEx logo"
+                    width="140"
+                  />
+                </picture>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- why-choose -->
       <section class="section why-choose">
-        <h2 class="section-title-bg why-choose-title">Why Choose Product?</h2>
-        <ul class="why-choose-list">
-          <li class="why-choose-list-item">
-            <h3 class="why-choose-item-title">Special Business</h3>
-            <p class="why-choose-item-text">
-              Product helps you see how many more days you need to work to reach
-              your financial goal for the month and year.
-            </p>
-          </li>
-          <li class="why-choose-list-item">
-            <h3 class="why-choose-item-title">Instant Result</h3>
-            <p class="why-choose-item-text">
-              Product helps you see how many more days you need to work to reach
-              your financial goal for the month and year.
-            </p>
-          </li>
-          <li class="why-choose-list-item">
-            <h3 class="why-choose-item-title">Fastest way to organize</h3>
-            <p class="why-choose-item-text">
-              Product helps you see how many more days you need to work to reach
-              your financial goal for the month and year.
-            </p>
-          </li>
-        </ul>
+        <div class="container why-choose-container">
+          <h2 class="section-title-bg why-choose-title">Why Choose Product?</h2>
+          <ul class="why-choose-list">
+            <li class="why-choose-list-item">
+              <div
+                class="why-choose-icon-wrapper why-choose-icon-wrapper-first"
+              >
+                <svg class="why-choose-icon" width="12" height="18">
+                  <use href="./images/icons.svg#icon-cursor"></use>
+                </svg>
+              </div>
+              <h3 class="why-choose-item-title card-title">Special Business</h3>
+              <p class="why-choose-item-text">
+                Product helps you see how many more days you need to work to
+                reach your financial goal for the month and year.
+              </p>
+            </li>
+            <li class="why-choose-list-item">
+              <div
+                class="why-choose-icon-wrapper why-choose-icon-wrapper-second"
+              >
+                <svg class="why-choose-icon" width="18" height="18">
+                  <use href="./images/icons.svg#icon-line"></use>
+                </svg>
+              </div>
+              <h3 class="why-choose-item-title card-title">Instant Result</h3>
+              <p class="why-choose-item-text">
+                Product helps you see how many more days you need to work to
+                reach your financial goal for the month and year.
+              </p>
+            </li>
+            <li class="why-choose-list-item">
+              <div
+                class="why-choose-icon-wrapper why-choose-icon-wrapper-third"
+              >
+                <svg class="why-choose-icon" width="16" height="18">
+                  <use href="./images/icons.svg#icon-heart"></use>
+                </svg>
+              </div>
+              <h3 class="why-choose-item-title card-title">
+                Fastest way to organize
+              </h3>
+              <p class="why-choose-item-text">
+                Product helps you see how many more days you need to work to
+                reach your financial goal for the month and year.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- product-function -->
       <section class="section product-function">
-        <h2 class="section-title-bg product-function-title">
-          How Product Work?
-        </h2>
-        <ol class="product-function-list">
-          <li class="product-function-item">
-            <img src="./images/mac1.png" alt="Macbook" width="500" />
-            <span class="item-step-number">STEP 1</span>
-            <h3 class="list-item-title-bg item-step-title">
-              Apply for a product
-            </h3>
-            <p class="list-item-text">
-              Completing our easy step-by-step application form gives you access
-              to multiple business with multiple products. We analyse your
-              business through our proprietary credit analysis technology
-            </p>
-          </li>
-          <li class="product-function-item">
-            <img src="./images/mac2.png" alt="Macbook" width="500" />
-            <span class="item-step-number">STEP 2</span>
-            <h3 class="list-item-title-bg item-step-title">
-              Pay fully refundable
-            </h3>
-            <p class="step-text">
-              Product will contactting you instantly to receive payment of the
-              Application Fee. if no offer of product is available, your fee
-              will be fully refunded.
-            </p>
-          </li>
-          <li class="product-function-item">
-            <img src="./images/mac3.png" alt="Macbook" width="500" />
-            <span class="item-step-number">STEP 3</span>
-            <h3 class="list-item-title-bg item-step-title">Completion</h3>
-            <p class="step-text">
-              Product will continue to liase between borrower and manager to
-              procees and complete a quick and efficient settlement
-            </p>
-          </li>
-        </ol>
-        <button class="product-function-btn btn-font-s btn-primary">
-          Get in touch with us
-        </button>
+        <div class="container product-function-container">
+          <h2 class="section-title-bg product-function-title">
+            How Product Work?
+          </h2>
+          <ol class="product-function-list">
+            <li class="product-function-item">
+              <picture class="product-function-picture">
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/customer/mac-1-lg.png    1x,
+                    ./images/customer/mac-1-lg@2x.png 2x
+                  "
+                />
+                <source
+                  srcset="
+                    ./images/customer/mac-1-sm.png    1x,
+                    ./images/customer/mac-1-sm@2x.png 2x
+                  "
+                />
+                <img
+                  class="product-function-img"
+                  src="./images/customer/mac-1-sm.png"
+                  alt="Macbook"
+                  width="349"
+                />
+              </picture>
+              <div class="product-function-text-wrap">
+                <span class="item-step-number">STEP 1</span>
+                <h3 class="list-item-title-bg item-step-title">
+                  Apply for a product
+                </h3>
+                <p class="item-step-text">
+                  Completing our easy step-by-step application form gives you
+                  access to multiple business with multiple products. We analyse
+                  your business through our proprietary credit analysis
+                  technology
+                </p>
+              </div>
+            </li>
+            <li class="product-function-item">
+              <picture class="product-function-picture">
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/customer/mac-2-lg.png    1x,
+                    ./images/customer/mac-2-lg@2x.png 2x
+                  "
+                />
+                <source
+                  srcset="
+                    ./images/customer/mac-2-sm.png    1x,
+                    ./images/customer/mac-2-sm@2x.png 2x
+                  "
+                />
+                <img
+                  class="product-function-img"
+                  src="./images/customer/mac-2-sm.png"
+                  alt="Macbook"
+                  width="349"
+                />
+              </picture>
+              <div class="product-function-text-wrap">
+                <span class="item-step-number">STEP 2</span>
+                <h3 class="list-item-title-bg item-step-title">
+                  Pay fully refundable
+                </h3>
+                <p class="item-step-text">
+                  Product will contactting you instantly to receive payment of
+                  the Application Fee. if no offer of product is available, your
+                  fee will be fully refunded.
+                </p>
+              </div>
+            </li>
+            <li class="product-function-item">
+              <picture class="product-function-picture">
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/customer/mac-3-lg.png    1x,
+                    ./images/customer/mac-3-lg@2x.png 2x
+                  "
+                />
+                <source
+                  srcset="
+                    ./images/customer/mac-3-sm.png    1x,
+                    ./images/customer/mac-3-sm@2x.png 2x
+                  "
+                />
+                <img
+                  class="product-function-img"
+                  src="./images/customer/mac-3-sm.png"
+                  alt="Macbook"
+                  width="349"
+                />
+              </picture>
+              <div class="product-function-text-wrap">
+                <span class="item-step-number">STEP 3</span>
+                <h3 class="list-item-title-bg item-step-title">Completion</h3>
+                <p class="item-step-text">
+                  Product will continue to liase between borrower and manager to
+                  procees and complete a quick and efficient settlement
+                </p>
+              </div>
+            </li>
+          </ol>
+          <button class="product-function-btn btn-font-s btn-primary">
+            Get in touch with us
+          </button>
+        </div>
       </section>
       <!-- offers-await -->
       <section class="section offers-await">
-        <h2 class="section-title offers-await-title">
-          Join thousand of other who have already received offers
-        </h2>
-        <ul class="offers-await-list">
-          <li class="offers-await-item">
-            <h3 class="offers-await-category">Business</h3>
-            <ul class="category-sublist">
-              <li class="category-sublist-item">Cash Flow</li>
-              <li class="category-sublist-item">Asset Backed</li>
-              <li class="category-sublist-item">Receivables Finance</li>
-            </ul>
-            <a class="offers-await-link" href=""
-              >Find the best business product</a
-            >
-          </li>
-          <li class="offers-await-item">
-            <h3 class="offers-await-category">Enterprise</h3>
-            <ul class="category-sublist">
-              <li class="category-sublist-item">Site Acquisition</li>
-              <li class="category-sublist-item">Bridge</li>
-              <li class="category-sublist-item">Development Financing</li>
-            </ul>
-            <a class="offers-await-link" href=""
-              >Find the best business product</a
-            >
-          </li>
-        </ul>
+        <div class="container offers-await-container">
+          <h2 class="section-title offers-await-title">
+            Join thousand of other who have already received offers
+          </h2>
+          <ul class="offers-await-list">
+            <li class="offers-await-item">
+              <div
+                class="offers-await-icon-wrapper offers-await-icon-wrapper-first"
+              >
+                <img
+                  class="offers-await-icon"
+                  src="./images/activity.svg"
+                  alt="Activity"
+                  width="61"
+                  height="61"
+                />
+              </div>
+              <div class="offers-await-text-wrap">
+                <h3 class="offers-await-category">Business</h3>
+                <ul class="category-sublist">
+                  <li class="category-sublist-item">Cash Flow</li>
+                  <li class="category-sublist-item">Asset Backed</li>
+                  <li class="category-sublist-item">Receivables Finance</li>
+                </ul>
+                <a class="offers-await-link" href=""
+                  >Find the best business product</a
+                >
+              </div>
+            </li>
+            <li class="offers-await-item">
+              <div
+                class="offers-await-icon-wrapper offers-await-icon-wrapper-second"
+              >
+                <img
+                  class="offers-await-icon"
+                  src="./images/chart.svg"
+                  alt="Chart"
+                  width="61"
+                  height="61"
+                />
+              </div>
+              <div class="offers-await-text-wrap">
+                <h3 class="offers-await-category">Enterprise</h3>
+                <ul class="category-sublist">
+                  <li class="category-sublist-item">Site Acquisition</li>
+                  <li class="category-sublist-item">Bridge</li>
+                  <li class="category-sublist-item">Development Financing</li>
+                </ul>
+                <a class="offers-await-link" href=""
+                  >Find the best business product</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- promo -->
       <section class="section promo">
